@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="payment.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="component">
+      <div class="credit-card">
+        <h2>Credit card / Debit card</h2>
+        <form>
+          <input type="text" placeholder="NAME" />
+          <div class="line">
+            <input type="text" placeholder="CARD TYPE" />
+            <input type="text" placeholder="NUMBER" />
+          </div>
+          <div class="line">
+            <input class="litle" type="text" placeholder="EXPIRY" />
+            <input class="tall" type="text" placeholder="CCV" />
+          </div>
+          <button type="submit" class="valid-button" onclick="bankpage()">
+            PROCEED TO PAYMENT
+          </button>
+        </form>
+      </div>
+    </section>
+    <script>
+      function bankpage() {
+        alert("Redirecting to Bank page");
+      }
+    </script>
+  </body>
+</html>

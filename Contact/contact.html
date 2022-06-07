@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Welcome to the most
+    extoraordinary hotel in Boston Massachusetts"
+    />
+    <meta
+      name="keywords"
+      content="hotel, boston hotel, new
+    england hotel"
+    />
+    <title>Hotel RNP | CONTACT</title>
+    <script src="https://kit.fontawesome.com/2b1dc97635.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="../Mainpage.html"> RNP</a></h1>
+          <ul>
+            <li><a href="../Mainpage.html">HOME</a></li>
+            <li><a href="../Orders/dishes.html">DISHES</a></li>
+            <li><a class="current" href="contact.html">CONTACT</a></li>
+            <li><a href="../Feedback/feedback.html">FEEDBACK</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+        <p>Please fill out the below form to contact us</p>
+        <form onsubmit="alert('THANK YOU FOR CONTACTING US.')">
+          <div class="form-group">
+            <label for="name">NAME</label>
+            <input type="text" name="name" id="name" required/>
+          </div>
+          <div class="form-group">
+            <label for="email">E-MAIL</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">MESSAGE</label>
+            <textarea name="message" id="message" required></textarea>
+          </div>
+          <button type="submit" class="btn" onclick="validateform()">
+            SUBMIT
+          </button>
+        </form>
+      </div>
+    </section>
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fa-solid fa-hotel fa-3x"></i>
+          <h3>Location</h3>
+          <p>
+            A/2 Gulab Tower ,Opp JG International School,Thaltej Ahmedabad
+            380054
+          </p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-phone fa-3x"></i>
+          <h3>Phone Number</h3>
+          <p>(+91)7202062840</p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-envelope fa-3x"></i>
+          <h3>Email Adress</h3>
+          <p>rnpHotel@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <p>Hotel RNP &copy;2022,All Rights Reserved</p>
+    </footer>
+    <script src="contact.js"></script>
+  </body>
+</html>
